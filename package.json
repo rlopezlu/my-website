@@ -1,7 +1,7 @@
 {
   "name": "my-website",
-  "version": "0.1.0",
-  "homepage": "http://rlopezlu.github.io/my-website/",
+  "version": "0.1.0",  
+  "homepage": "http://rlopezlu.github.io/my-website",
   "private": true,
   "dependencies": {
     "ajv": "^6.2.0",
