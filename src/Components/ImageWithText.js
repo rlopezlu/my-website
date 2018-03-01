@@ -8,6 +8,7 @@ export default function ImageWithText(props){
       <img src={props.image} alt="ucsc" />
       <div className="imageText">
         <h2>Raul Lopez Luna</h2>
+        <p>UC Santa Cruz 2013 - 2017</p>
         <p>B.S. Computer Science</p>
         <p>Richmond, Ca</p>
         <p>raullopez2094@gmail.com</p>

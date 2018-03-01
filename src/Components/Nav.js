@@ -6,9 +6,13 @@ export default function Nav(){
   return(
     <div className="Nav">
       <span>Raul Lopez Luna</span>
-      <span><FontAwesome name='github'/> </span>
-      <span><FontAwesome name='linkedin'/> </span>
-      <span>Resume</span>
+      <div className="right">
+        <a href="https://github.com/rlopezlu">
+          <FontAwesome name='github'/>
+        </a>
+        <a href="https://www.linkedin.com/in/rlopezlu/"><FontAwesome name='linkedin'/> </a>
+        <a href="https://drive.google.com/file/d/1iuFtue5M-g7UfHLUfsEqWKtF9iZZQzY9/view">Resume</a>
+      </div>
     </div>
   )
 }
