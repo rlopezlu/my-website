@@ -4,9 +4,9 @@ import '../Styles/Objective.css'
 export default function Objective(){
   return(
     <div className="Objective">
-      <h2>
+      <p className="bolder">
         Objective
-      </h2>
+      </p>
       <p>I am looking for my first full time software development job. I have
         experience working with multiple parts of the javascript web dev stack
         using Node.js and compatible npm repos. Angular, React, and Vue are very

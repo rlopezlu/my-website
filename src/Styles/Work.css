@@ -1,18 +1,18 @@
 @import url('https://fonts.googleapis.com/css?family=Roboto:300,400,500');
 
-.Objective{
+.Work{
   margin: auto;
   /* font-family: 'Roboto', sans-serif; */
   width: 80%;
 }
 
-.Objective p{
+.Work p{
   font-weight: 300;
   line-height: 1.6;
   font-size: 20px;
 }
 
-.Objective .bolder{
+.Work .bolder{
   font-size: 30px;
   font-weight: 400;
 }

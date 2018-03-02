@@ -14,7 +14,7 @@ export default function Project(props){
     return(
     <div className="project">
       <div className="title">
-        <h3>{props.title}</h3>
+        <p className="titleText">{props.title}</p>
         <div className="flexWrapper">
           <div className="titleContent">
             <p>{props.role}</p>
@@ -28,9 +28,11 @@ export default function Project(props){
         </div>
       </div>
       <div className="content">
-        <p>{props.description}</p>
-        <div>
-          {getTech()}
+        <div className="contentText">
+          <p>{props.description}</p>
+          <div>
+            {getTech()}
+          </div>
         </div>
         <button>
           <a

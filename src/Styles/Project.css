@@ -15,6 +15,12 @@
   box-shadow: 0 5px 5px rgba(0,0,0,0.25), 0 5px 5px rgba(0,0,0,0.22);
 }
 
+.titleText{
+  font-size: 24px;
+  font-weight: 400;
+}
+
+
 .flexWrapper{
   display: flex;
   justify-content:space-around;
@@ -33,8 +39,10 @@ button{
   border: none;
   cursor: pointer;
   margin-top: 10px;
+  /* margin-top: 10%; */
   padding: 10px;
   font-size: large;
+  /* position: absolute; */
 }
 
 
@@ -77,6 +85,10 @@ a{
 .content > p{
   margin: 0;
   padding:10px 0  10px 0;
+}
+
+.contentText{
+  min-height: 7em;
 }
 
 .titleContent{

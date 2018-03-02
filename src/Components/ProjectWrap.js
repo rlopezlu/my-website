@@ -5,6 +5,34 @@ import '../Styles/ProjectWrap.css'
 export default function ProjectWrap(){
   let myProjects = [
     {
+      title: "LoL Match History",
+      img:"gamepad",
+      // description:`Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed
+      // do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad
+      // minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex
+      // ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate
+      // velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat
+      // cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum`,
+      // note:"Side Project",
+      description:`Match history for League of Legends powered by Riot Games Api.
+        Different from other
+        match history websites because it highlights games played with friends`,
+      role:"Web Dev",
+      note:"Side Project",
+      tech: ["React", 'Express', 'Nodejs' ],
+      link:"https://rlopezlu.github.io/league-history/"
+    },
+    {
+      title: "Typing Speed Test",
+      img:"keyboard-o",
+      description:`How many words can you type per minute? Find out in this
+      typing test.`,
+      note:"Side Project",
+      role:"Web Dev",
+      tech: ["React", 'Express', 'Nodejs' ],
+      link:"https://rlopezlu.github.io/typing-speed-test/"
+    },
+    {
       title: "Smart Irrigation",
       img:"pie-chart",
       description:`Worked with a front end and back end team to implement a full
@@ -45,34 +73,6 @@ export default function ProjectWrap(){
       link:'https://github.com/ankur-gos/SpotlightWeb'
     },
     {
-      title: "LoL Match History",
-      img:"gamepad",
-      // description:`Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed
-      // do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad
-      // minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex
-      // ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate
-      // velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat
-      // cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum`,
-      // note:"Side Project",
-      description:`Match history for League of Legends powered by Riot Games Api.
-        Different from other
-        match history websites because it highlights games played with friends`,
-      role:"Web Dev",
-      note:"Side Project",
-      tech: ["React", 'Express', 'Nodejs' ],
-      link:"https://rlopezlu.github.io/league-history/"
-    },
-    {
-      title: "Typing Speed Test",
-      img:"keyboard-o",
-      description:`How many words can you type per minute? Find out in this
-      typing test.`,
-      note:"Side Project",
-      role:"Web Dev",
-      tech: ["React", 'Express', 'Nodejs' ],
-      link:"https://rlopezlu.github.io/typing-speed-test/"
-    },
-    {
       title: "Weather SMS",
       img:"sun-o",
       description:`Send a text to my node server, to receive a text with the
@@ -86,9 +86,9 @@ export default function ProjectWrap(){
 
   return(
     <div>
-      <h2>Projects</h2>
+      {/* need extra div abovesince project wrap is flexbox*/}
+      <p className="bolder">Projects</p>
       <div className="project-wrap">
-
         {myProjects.map( project => {
           return <Project
             key={project.title}
