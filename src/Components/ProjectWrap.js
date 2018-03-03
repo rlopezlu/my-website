@@ -40,7 +40,7 @@ export default function ProjectWrap(){
       role:"Front End Developer",
       tech: ["js", 'Vue' ],
       note: "CMPS 116-117 - Senior Project",
-      link: ""
+      link: "https://i.imgur.com/w3BKogU.png"
     },
     {
       title: "Quest Journal",
