@@ -30,9 +30,10 @@ export default function Project(props){
       <div className="content">
         <div className="contentText">
           <p>{props.description}</p>
-          <div>
-            {getTech()}
-          </div>
+
+        </div>
+        <div>
+          {getTech()}
         </div>
         <button>
           <a

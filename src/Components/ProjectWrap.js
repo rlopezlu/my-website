@@ -17,7 +17,7 @@ export default function ProjectWrap(){
       description:`Match history for League of Legends powered by Riot Games Api.
         Different from other
         match history websites because it highlights games played with friends`,
-      role:"Web Dev",
+      role:"Web Developer",
       note:"Side Project",
       tech: ["React", 'Express', 'Nodejs' ],
       link:"https://rlopezlu.github.io/league-history/"
@@ -28,7 +28,7 @@ export default function ProjectWrap(){
       description:`How many words can you type per minute? Find out in this
       typing test.`,
       note:"Side Project",
-      role:"Web Dev",
+      role:"Web Developer",
       tech: ["React", 'Express', 'Nodejs' ],
       link:"https://rlopezlu.github.io/typing-speed-test/"
     },
@@ -47,7 +47,7 @@ export default function ProjectWrap(){
       img:"list-ul",
       description:`Java programmer in group of 3. Helped design all parts of the app
         including UI, database, and flow between app pages.`,
-      role:"Android Dev",
+      role:"Android Developer",
       tech: ["Android Studio", 'Firebase', 'Java'],
       note: "CMPS 121 - Mobile Apps",
       link: "https://github.com/jasonou/Quest-Journal"
@@ -57,8 +57,8 @@ export default function ProjectWrap(){
       img:"car",
       description:`Led a team of 5 students. Created wireframes for app pages.
         Was also the lead JS programmer`,
-      role:"Team Lead, Mobile JS dev",
-      note:"CMPS 115 - Intro to Software Engineering",
+      role:"Team Lead",
+      note:"CMPS 115 - Software Engineering",
       tech: ["React Native", 'Firebase' ],
       link:"https://github.com/joshuapena/space-mobile"
     },
@@ -68,7 +68,7 @@ export default function ProjectWrap(){
       description:`Front end dev of web app, powered by Angular. Share a
         spotify playlist on our page, and users with the link can vote on which song will play next.`,
       note:"UCSC Hackathon 2016",
-      role:"Front End Dev",
+      role:"Front End Developer",
       tech: ["Angular", 'Bootstrap' ],
       link:'https://github.com/ankur-gos/SpotlightWeb'
     },
@@ -78,17 +78,17 @@ export default function ProjectWrap(){
       description:`Send a text to my node server, to receive a text with the
       current weather.`,
       note:"Side Project",
-      role:"Web Dev",
+      role:"Web Developer",
       tech: ["Twilio", 'Express', 'Nodejs' ],
       link:"https://github.com/rlopezlu/TwilioWeather"
     }
   ]
 
   return(
-    <div>
+    <div className="project-wrap">
       {/* need extra div abovesince project wrap is flexbox*/}
       <p className="bolder">Projects</p>
-      <div className="project-wrap">
+      <div className="project-flex">
         {myProjects.map( project => {
           return <Project
             key={project.title}

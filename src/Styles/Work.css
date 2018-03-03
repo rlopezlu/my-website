@@ -3,16 +3,76 @@
 .Work{
   margin: auto;
   /* font-family: 'Roboto', sans-serif; */
-  width: 80%;
+  width: 90%;
+  /* background-color: white; */
 }
 
-.Work p{
-  font-weight: 300;
-  line-height: 1.6;
+.whiteBg{
+  width: 100%;
+  background-color: white;
+  border-radius: 5px;
+  padding-bottom: 20px;
+  box-shadow: 2px 2px 3px #888888;
+}
+
+.summary{
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+}
+
+.summary p{
+  /* width: 30%; */
+}
+
+.summary ul{
+  align-self: center;
+  width: 20em;
+  margin: 0;
+  padding: 0;
+  list-style-type: none;
+}
+
+.writeup{
+  /* display: none; */
+  /* font-size: 2font-size: 18px;0px; */
+  margin: auto;
+  width: 70%;
+}
+
+.hidden{
+  display: none;
+}
+
+.summary li{
+  width: 7em;
+  display: inline-block;
+  margin:auto;
+  padding-bottom: 5px;
+}
+
+.jobDescription{
   font-size: 20px;
+  padding: 3px 0;
+  margin: auto;
+  width: 70%;
 }
 
-.Work .bolder{
-  font-size: 30px;
+
+button{
+  color: white;
+}
+
+.jobLocation{
+  font-size: 20px;
   font-weight: 400;
+}
+
+.summary div{
+  /* width: 30%; */
+  /* background-color: red; */
+}
+
+.summary div p{
+  width: 100%;
 }

@@ -6,7 +6,7 @@
   min-height: 17em;
   max-height: 20em;
   overflow: hidden;
-  background-color: yellow;
+  /* background-color: yellow; */
 }
 
 .ImageWithText  img{
@@ -21,9 +21,12 @@
 
 }
 
+.imageText p{
+  color: white;
+}
 .imageText{
   /* background-color: dark-grey; */
-  color: white;
+
   font-size: 20px;
   position:relative;
   transform: translate(0%, -50%);
@@ -31,9 +34,4 @@
   margin-bottom: -10em;
 
   z-index: 70;
-}
-
-.imageText .bolder{
-  font-size: 30px;
-  font-weight: 400;
 }

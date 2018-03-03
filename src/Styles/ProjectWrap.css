@@ -1,13 +1,9 @@
-.project-wrap{
+.project-flex{
   margin: auto;
   /* background-color: red; */
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
   width: 80%;
-}
 
-.bolder{
-  font-size: 30px;
-  font-weight: 400;
 }
