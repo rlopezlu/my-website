@@ -23,9 +23,15 @@ export default class Work extends Component{
       return "Detailed Write Up"
   }
 
+  getHref(){
+    if(this.state.displayDetails)
+      return null
+      return "#WorkAnchor"
+  }
+
  render(){
   return(
-    <div className="Work">
+    <div id="WorkAnchor" className="Work">
       <p className="bolder">
         Work Experience
       </p>
@@ -53,7 +59,7 @@ export default class Work extends Component{
           Designed mockups, wireframes, and flow of web application. Collaborated
           with non-technical staff, and helped them run the project locally.
         </p>
-        <button onClick={this.handleClick}>{this.buttonLabel()}</button>
+        <a href={this.getHref()}><button onClick={this.handleClick}>{this.buttonLabel()}</button></a>
         <div className={this.showOrHide()}>
           <p>I worked at Leeps Lab @ UCSC under Economics Professor Kristian Lopez Vargas
             the summer after my junior year.
@@ -90,7 +96,7 @@ export default class Work extends Component{
             I enjoyed the autonomy and responsibility, and ultimately how I
             approached the project was up to me.
           </p>
-          <button onClick={this.handleClick}>{this.buttonLabel()}</button>
+          <a href={this.getHref()}><button onClick={this.handleClick}>{this.buttonLabel()}</button></a>
         </div>
       </div>
     </div>
