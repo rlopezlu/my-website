@@ -32,9 +32,9 @@ export default class Work extends Component{
       <div className="whiteBg">
         <p className="jobLocation">Leeps Lab UCSC</p>
         <div className="summary">
-          <div>
-            <p className="workText">Web Developer</p>
-            <p className="workText">Summer 2016</p>
+          <div className="summaryLeft">
+            <p >Web Developer</p>
+            <p >Summer 2016</p>
           </div>
           <div>
             <ul>
@@ -93,10 +93,6 @@ export default class Work extends Component{
           <button onClick={this.handleClick}>{this.buttonLabel()}</button>
         </div>
       </div>
-
-
-
-
     </div>
     )
   }

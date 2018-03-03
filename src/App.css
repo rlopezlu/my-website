@@ -16,8 +16,26 @@
   margin-top: 2.7em;
 }
 
+.App-text{
+  width: 70%;
+  margin: auto;
+}
+
 p{
   color: #222;
+}
+
+@media only screen and (max-width: 600px)  {
+  .App-text{
+    width: 92%;
+  }
+}
+
+.whiteBg{
+  background-color: white;
+  border-radius: 5px;
+  box-shadow: 2px 2px 5px #888888;
+  padding: 10px 0;  
 }
 
 html, body{

@@ -18,9 +18,11 @@ class App extends Component {
           <ImageWithText
             image={ucsc}
           />
-          <Objective />
-          <Work />
-          <ProjectWrap />
+          <div className="App-text">
+            <Objective />
+            <Work />
+            <ProjectWrap />
+          </div>
         </div>
       </div>
     );
