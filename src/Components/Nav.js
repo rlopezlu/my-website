@@ -11,7 +11,7 @@ export default function Nav(){
           <FontAwesome name='github'/>
         </a>
         <a href="https://www.linkedin.com/in/rlopezlu/"><FontAwesome name='linkedin'/> </a>
-        <a href="https://drive.google.com/file/d/1iuFtue5M-g7UfHLUfsEqWKtF9iZZQzY9/view">Resume</a>
+        <a href="https://drive.google.com/file/d/1zzXnHagnxWABtcPa8VJH7E4RVZBVldH0/view">Resume</a>
       </div>
     </div>
   )
